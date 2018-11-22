@@ -422,10 +422,7 @@ public class AssertionTest {
         assertGreaterThan(1l, 1l);
         assertGreaterThan(1.0, 1.0);
         assertGreaterThan(1.0d, 1.0d);
-    }
 
-    @Test
-    public void greaterThan() {
         Object o = new Object();
 
         assertGreaterThan(o, o, new Comparator<Object>(){
